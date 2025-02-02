@@ -1,6 +1,6 @@
-package com.pp.cyan.ad.repository;
+package com.pp.cyan.repository;
 
-import com.pp.cyan.ad.entity.Domain;
+import com.pp.cyan.entity.Domain;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.pp.cyan.ad.controller.dto;
+package com.pp.cyan.controller.dto;
 
 public class CheckDomainResponse {
 

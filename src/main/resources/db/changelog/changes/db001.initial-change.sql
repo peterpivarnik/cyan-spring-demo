@@ -1,10 +1,10 @@
 CREATE TYPE category AS ENUM ('PORNOGRAPHY', 'GAMBLING', 'VIOLENCE', 'DRUGS', 'SOCIAL_MEDIA', 'MALWARE_AND_PHISHING');
 CREATE TABLE IF NOT EXISTS domain (
- id BIGSERIAL NOT NULL,
- domain TEXT NOT NULL UNIQUE,
- category category NOT NULL,
- blocked BOOLEAN NOT NULL,
- CONSTRAINT pk_domain_id PRIMARY KEY (id)
+     id BIGSERIAL NOT NULL,
+     domain TEXT NOT NULL UNIQUE,
+     category category NOT NULL,
+     blocked BOOLEAN NOT NULL,
+     CONSTRAINT pk_domain_id PRIMARY KEY (id)
 );
 INSERT INTO domain (domain, category, blocked) VALUES ('sex.badinternetdomain.com', 'PORNOGRAPHY', TRUE);
 INSERT INTO domain (domain, category, blocked) VALUES ('porn.badinternetdomain.com', 'PORNOGRAPHY', FALSE);

@@ -1,4 +1,4 @@
-package com.pp.cyan.ad.entity;
+package com.pp.cyan.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
